@@ -1,0 +1,232 @@
+/*commentaire*/
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-visit .title-page-one{
+    background-color:white;
+}
+nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    padding: 32px 115px ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover{
+   
+    opacity:80%;
+    text-decoration: underline;
+}
+div.logo img{
+    height: 60px;
+    padding-left: 115px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.navbar{
+
+    padding: 2%;
+    width: 80%;
+
+}
+
+div.ligne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0%;
+    margin: 0;
+}
+
+div.ligne.ligne-navy {
+    background-color: #5e96ff;
+    height: 350px; 
+}
+
+div.ligne.ligne-navy .ligne-image{
+background-image: url("image/joanjoas.jpg");
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+
+div.ligne-text{
+    margin-bottom: 0px ;
+    margin-inline-end: -0.98px;
+    margin-inline-start: -1.988px;
+    margin-left: -1.988px;
+    margin-right: -0.98px;
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p.accueil{
+    padding-top: 180px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+div.ligne-text.ligne-text-reverse{
+    padding-left: 75px;
+}
+
+div.ligne.ligne-reverse.ligne-reverse-blue{
+    flex-direction: row-reverse;
+    background-color: #00AFD7;
+    height: 350px;
+}
+
+div.ligne.ligne-reverse.ligne-reverse-blue .ligne-image-reverse-blue {
+    width: 100%;
+    background-image: url("image/laToya.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div.ligne.ligne-red {
+    background-color: #ff585d;
+    height: 350px;
+}
+
+div.ligne.ligne-red .ligne-image-red{
+    width: 75%;
+    background-image: url("image/lessons\ of\ the\ hour.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div.ligne.ligne-reverse.ligne-reverse-yellow {
+    background-color: #bad200;
+    flex-direction: row-reverse;
+    height: 350px;
+}
+
+div.ligne.ligne-reverse.ligne-reverse-yellow .ligne-image-reverse-yellow{
+    width: 71%;
+    background-image: url("image/theMothers.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.ligne.ligne-orange {
+    background-color: #FF8F1C;
+    height: 350px;
+}
+
+div.ligne.ligne-orange .ligne-image-orange{
+    width: 122%;
+    background-image: url("image/crafting\ modernity.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div.title-page-one{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5e96ff;
+    padding-left: 145px;
+    padding-top: 32px;
+    font-size: 45px;
+}
+h2{ 
+    font-size: 35px;
+}
+
+div.title-page-one p{
+    padding-bottom: 32px;
+}
+
+div.ligne-image-title-one{
+    background-image: url("image/joanjoas.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+div.main-content-page-one{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 50px;
+    gap: 50px;
+}
+div.h3-main{
+    font-size: 25px;
+    padding-left: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+div.h3-main h4 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+div.paragraph-one{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-left: 200px;
+    
+  }
+  div.icons-rs img{
+    height: 30px;
+    padding: 5%;
+  }
+  div.icons-rs{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    gap: 5px;
+  }
+
+ div.content-page-visit{
+    padding: 5%
+ }
+ div.paragraph-visit{
+    font-size: 20px;
+ }
+
+ div.sign{
+    text-align: center;
+    padding: 5%;
+    font-weight: bolder;
+    font-size: 15px;
+ }
+ div.sign img {
+    height: 30px;
+    padding: 1%;
+ }
+ 
+
+  
